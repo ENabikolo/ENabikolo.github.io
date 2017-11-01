@@ -2,7 +2,7 @@
 //button created for Events 1 does not increase the age of your object person. 
 
 //variables 2
-var person = {
+let person = {
         name: "Chez",
         age: 35,
         occupation: "lecturer", 
@@ -56,7 +56,7 @@ for(i = 0; i<10; i++){
 
 //Iteration 2
 for(i = 0; i<10; i++){
-    if(i/2){
+    if(i%2){
         console.log(i);  
     }
 }

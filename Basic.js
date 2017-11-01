@@ -2,13 +2,13 @@
 alert("Hello World!"); 
 
 //Variables
-var myVariable = "One Name"
+let myVariable = "One Name"
 alert ("One Name"); 
 console.log(myVariable); 
 document.write(myVariable);
 
 //functions 1
-var x =2;
+let x =2;
 function square(y) {
     return  x**x; 
 }
